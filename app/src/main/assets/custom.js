@@ -45,6 +45,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 };const element2 = document.querySelector('body > div.app-container > div.main-card > div.content-area > div > div.welcome-buttons');
                 if (element2) {
                     element2.style.display = 'none';
+                };const element3 = document.querySelector('body > footer');
+                if (element3) {
+                    element3.style.display = 'none';
                 }
             }
         }
