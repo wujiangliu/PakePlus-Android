@@ -50,6 +50,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 };const element2 = document.querySelector('#app > section > main > div > div:nth-child(1) > div.t-card__body > div > p:nth-child(7)');
                 if (element2) {
                     element2.style.display = 'none';
+                };const element3 = document.querySelector('#app > section > header > div > div > ul');
+                if (element3) {
+                    element3.style.display = 'none';
+                };const element4 = document.querySelector('#app > section > header');
+                if (element4) {
+                    element4.style.display = 'none';
                 }
             }
         }
